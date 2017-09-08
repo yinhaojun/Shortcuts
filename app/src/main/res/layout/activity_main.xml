@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yinhaojun.shortcuts.MainActivity">
+
+    <Button
+        android:text="add单个快捷方式"
+        android:id="@+id/addDynamicShortcut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:text="set单个快捷方式"
+        android:id="@+id/setDynamicShortcut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="set多个快捷方式"
+        android:id="@+id/setMultiShortcut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="add带backstack的快捷方式"
+        android:id="@+id/addBackStackShortcut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="移除所有的快捷方式"
+        android:id="@+id/removeAllDynamicShortcuts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="移除固定id的快捷方式"
+        android:id="@+id/removeDynamicShortcuts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:text="更新固定id的快捷方式"
+        android:id="@+id/updateDynamicShortcuts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

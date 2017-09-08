@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Shortcuts</string>
+
+    <string name="static_shortcut_disable_msg">静态快捷方式不可用消息</string>
+    <string name="static_shortcut_long_lable1">静态long1</string>
+    <string name="static_shortcut_short_lable1">静态short1</string>
+
+    <string name="static_shortcut_long_lable2">静态long2</string>
+    <string name="static_shortcut_short_lable2">静态short2</string>
+
+
+</resources>
